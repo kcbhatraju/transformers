@@ -6,4 +6,4 @@ TensorFlow implementations of the following papers:
 - [On Layer Normalizations and Residual Connections in Transformers](https://arxiv.org/pdf/2206.00330v1)
 - [ResiDual: Transformer with Dual Residual Connections](https://arxiv.org/pdf/2304.14802)
 
-Also includes a guide clarifying some common misconceptions about transformer implementations.
+Also includes a detailed [guide](https://github.com/kcbhatraju/transformers/blob/main/Transformer%20Details.pdf) on transformer implementations clarifying some common misconceptions that I haven't seen explained well in other sources.
