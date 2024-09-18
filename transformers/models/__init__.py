@@ -1,5 +1,5 @@
 import tensorflow as tf
-from sections import Decoder, Encoder
+from transformers.sections import Decoder, Encoder
 
 
 class Transformer(tf.keras.Model):

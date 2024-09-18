@@ -1,5 +1,5 @@
 import tensorflow as tf
-from layers import FeedForward, MultiHeadAttention
+from transformers.layers import FeedForward, MultiHeadAttention
 
 
 class _EncoderBlock(tf.keras.layers.Layer):

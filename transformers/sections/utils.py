@@ -1,9 +1,9 @@
 import tensorflow as tf
-from blocks.decoders import (B2TDecoderBlock, PostLayerNormDecoderBlock,
+from transformers.blocks.decoders import (B2TDecoderBlock, PostLayerNormDecoderBlock,
                              PreLayerNormDecoderBlock, ResiDualDecoderBlock)
-from blocks.encoders import (B2TEncoderBlock, PostLayerNormEncoderBlock,
+from transformers.blocks.encoders import (B2TEncoderBlock, PostLayerNormEncoderBlock,
                              PreLayerNormEncoderBlock, ResiDualEncoderBlock)
-from layers import PositionalEncoding
+from transformers.layers import PositionalEncoding
 
 
 class _Section(tf.keras.Model):
